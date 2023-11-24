@@ -33,13 +33,22 @@ In a world where emotions were traded like currency, There was a unique crypto t
             </p>
           </a>
           <div>
-            <a
-              // href="https://app.uniswap.org/swap?outputCurrency=0x7075d664494877edf4902e41ac94fdf2f6a5338e&chain=ethereum"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className=" border-[#fff] mb-5">Buy $DEV Now</button>
-            </a>
+            <div className="flex gap-3">
+              <a
+                // href="https://app.uniswap.org/swap?outputCurrency=0x7075d664494877edf4902e41ac94fdf2f6a5338e&chain=ethereum"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className=" border-[#fff] mb-5">Buy $DEV Now</button>
+              </a>
+              <a
+                href="https://t.me/DevsLab_Bot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className=" border-[#fff] mb-5">Deploy your Token</button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex flex-col flex-1 justify-start md:ml-10 icon-fade">
