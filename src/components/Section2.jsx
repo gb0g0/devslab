@@ -1,7 +1,7 @@
-import { FaGift } from "react-icons/fa";
-import { MdGroups3 } from "react-icons/md";
-import { BsFillCheckSquareFill } from "react-icons/bs";
-import { FaCarSide } from "react-icons/fa";
+import { GrSecure } from "react-icons/gr";
+import { IoSettings } from "react-icons/io5";
+import { BiSupport } from "react-icons/bi";
+import { SiSpringsecurity } from "react-icons/si";
 const Card = ({ icon, title, subtitle }) => (
   <div className="flex flex-col max-w-xs min-h-[15.625rem] justify-start p-4 cursor-pointer white-glassmorphism hover:shadow-xl">
     <div className="w-14 h-14 rounded-md flex items-center justify-center bg-black">
@@ -22,17 +22,17 @@ const Section2 = () => {
       </div>
       <div className="flex flex-wrap w-screen my-[20px] gap-[26px] grotesk justify-center items-center">
         <Card
-          icon={<FaCarSide fontSize={21} className="text-white" />}
+          icon={<IoSettings fontSize={21} className="text-white" />}
           title="Customization Options:"
           subtitle="Customization options, allowing users to define tokenomics, features, and other parameters to align with their project goals."
         />
         <Card
-          icon={<FaCarSide fontSize={21} className="text-white" />}
+          icon={<SiSpringsecurity fontSize={21} className="text-white" />}
           title="Security Assurance:"
           subtitle="Security is paramount in the crypto world. Devslab implements robust security measures to safeguard your token deployment process."
         />
         <Card
-          icon={<FaCarSide fontSize={21} className="text-white" />}
+          icon={<BiSupport fontSize={21} className="text-white" />}
           title="Comprehensive Support:"
           subtitle="Launching a token can be a complex endeavor. Devslab provides support, offering documentation, tutorials, and responsive customer service."
         />
